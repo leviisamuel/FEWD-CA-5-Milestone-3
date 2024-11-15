@@ -28,7 +28,7 @@ const App = () => {
         setFilteredBooks(data.books)
       }
       catch(error){
-        console.error("Error while getting the books",erroe)
+        console.error("Error while getting the books",error)
       }
     };
 
